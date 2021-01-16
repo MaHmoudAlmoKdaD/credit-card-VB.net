@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1FFC7EEC-2D53-4356-AB85-DA2164944A87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>credit_project.My.MyApplication</StartupObject>
+    <RootNamespace>credit_project</RootNamespace>
+    <AssemblyName>credit_project</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\mahmoud\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>credit_project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>credit_project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3B0E4EFD83FB855A03493996AC9028D99905585C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>credit_project_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="crprt3.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crprt3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_borrower.Designer.vb">
+      <DependentUpon>frm_borrower.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_borrower.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_borrower1.Designer.vb">
+      <DependentUpon>frm_borrower1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_borrower1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_building.Designer.vb">
+      <DependentUpon>frm_building.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_building.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_company.Designer.vb">
+      <DependentUpon>frm_company.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_company.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_credit2.Designer.vb">
+      <DependentUpon>frm_credit2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_credit2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_district.Designer.vb">
+      <DependentUpon>frm_district.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_district.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_newRequest.Designer.vb">
+      <DependentUpon>frm_newRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_newRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_profession.Designer.vb">
+      <DependentUpon>frm_profession.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_profession.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_project.Designer.vb">
+      <DependentUpon>frm_project.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_project.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_province.Designer.vb">
+      <DependentUpon>frm_province.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_province.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_region.Designer.vb">
+      <DependentUpon>frm_region.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_region.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_request.Designer.vb">
+      <DependentUpon>frm_request.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_request.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_rpt3.Designer.vb">
+      <DependentUpon>frm_rpt3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_rpt3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_rpt_request.Designer.vb">
+      <DependentUpon>frm_rpt_request.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_rpt_request.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_rpt_requestWithSession.Designer.vb">
+      <DependentUpon>frm_rpt_requestWithSession.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_rpt_requestWithSession.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_school.Designer.vb">
+      <DependentUpon>frm_school.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_school.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_session.Designer.vb">
+      <DependentUpon>frm_session.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_session.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_street.Designer.vb">
+      <DependentUpon>frm_street.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_street.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_twon.Designer.vb">
+      <DependentUpon>frm_twon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_twon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_work.Designer.vb">
+      <DependentUpon>frm_work.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_work.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_workType.Designer.vb">
+      <DependentUpon>frm_workType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_workType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="rpt_request.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_request.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rpt_RequestWithSession.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_RequestWithSession.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="crprt3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crprt3.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_borrower.resx">
+      <DependentUpon>frm_borrower.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_borrower1.resx">
+      <DependentUpon>frm_borrower1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_building.resx">
+      <DependentUpon>frm_building.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_company.resx">
+      <DependentUpon>frm_company.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_credit2.resx">
+      <DependentUpon>frm_credit2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_district.resx">
+      <DependentUpon>frm_district.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_newRequest.resx">
+      <DependentUpon>frm_newRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_profession.resx">
+      <DependentUpon>frm_profession.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_project.resx">
+      <DependentUpon>frm_project.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_province.resx">
+      <DependentUpon>frm_province.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_region.resx">
+      <DependentUpon>frm_region.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_request.resx">
+      <DependentUpon>frm_request.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_rpt3.resx">
+      <DependentUpon>frm_rpt3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_rpt_request.resx">
+      <DependentUpon>frm_rpt_request.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_rpt_requestWithSession.resx">
+      <DependentUpon>frm_rpt_requestWithSession.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_school.resx">
+      <DependentUpon>frm_school.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_session.resx">
+      <DependentUpon>frm_session.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_street.resx">
+      <DependentUpon>frm_street.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_twon.resx">
+      <DependentUpon>frm_twon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_work.resx">
+      <DependentUpon>frm_work.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_workType.resx">
+      <DependentUpon>frm_workType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_request.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_request.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_RequestWithSession.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_RequestWithSession.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="credit_project_TemporaryKey.pfx" />
+    <None Include="DatabaseDataSet.xsc">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseDataSet.xss">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

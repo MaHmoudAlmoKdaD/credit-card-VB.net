@@ -1,0 +1,49 @@
+C:\credit_project\credit_project\credit_project\bin\Debug\credit_project.exe.config
+C:\credit_project\credit_project\credit_project\bin\Debug\credit_project.exe
+C:\credit_project\credit_project\credit_project\bin\Debug\credit_project.pdb
+C:\credit_project\credit_project\credit_project\bin\Debug\credit_project.xml
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_main.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.Resources.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.vbproj.GenerateResource.Cache
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.exe
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.xml
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.pdb
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_newRequest.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_borrower.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_school.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_building.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_company.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_district.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_profession.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_province.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_region.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_street.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_twon.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_work.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_session.resources
+F:\Last Copy of progrmming\credit_project\credit_project\credit_project\bin\Debug\credit_project.exe.config
+F:\Last Copy of progrmming\credit_project\credit_project\credit_project\obj\Debug\credit_project.exe
+F:\Last Copy of progrmming\credit_project\credit_project\credit_project\obj\Debug\credit_project.xml
+F:\Last Copy of progrmming\credit_project\credit_project\credit_project\obj\Debug\credit_project.pdb
+C:\Users\mahmoud\Desktop\credit_project\credit_project\credit_project\bin\Debug\credit_project.exe.config
+C:\Users\mahmoud\Desktop\credit_project\credit_project\credit_project\obj\Debug\credit_project.exe
+C:\Users\mahmoud\Desktop\credit_project\credit_project\credit_project\obj\Debug\credit_project.xml
+C:\Users\mahmoud\Desktop\credit_project\credit_project\credit_project\obj\Debug\credit_project.pdb
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.btn_cancel.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_project.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_workType.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_request.resources
+F:\final\credit_project\credit_project\credit_project\bin\Debug\credit_project.exe.config
+F:\final\credit_project\credit_project\credit_project\obj\Debug\credit_project.exe
+F:\final\credit_project\credit_project\credit_project\obj\Debug\credit_project.xml
+F:\final\credit_project\credit_project\credit_project\obj\Debug\credit_project.pdb
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.vbprojResolveAssemblyReference.cache
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_rpt_request.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_rpt_requestWithSession.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_credit2.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.Form2.resources
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.frm_rpt3.resources
+C:\credit_project\credit_project\credit_project\bin\Debug\credit_project.exe.manifest
+C:\credit_project\credit_project\credit_project\bin\Debug\credit_project.application
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.exe.manifest
+C:\credit_project\credit_project\credit_project\obj\Debug\credit_project.application

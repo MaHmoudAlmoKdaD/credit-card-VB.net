@@ -1,0 +1,1016 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+credit_project
+</name>
+</assembly>
+<members>
+<member name="P:credit_project.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:credit_project.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:credit_project.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.AnswerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Assets_typeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.BorrowerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.BuildingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Case_projectDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.CategoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.CompanyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Concern_projectDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.CreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Credit_typeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.DetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.DistristDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Educational_levelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ExistDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Exist_answerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Family_incomeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Family_spendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Family_statusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.GiveDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.GuranterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Has_answerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Has_emplDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_assetsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_gaurDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_insuDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_partnerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_supDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Income_typeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.InsuranceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Last_classDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.LinkDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Loan_registerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.PartnerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Payment_modeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.PersonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ProfessionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Profession_statusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ProjectDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Project_spondDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Project_typeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ProvinceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.QuestionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.RegionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.RelationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.RequestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.School_or_universityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Second_addressDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Service_projectDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ShiftDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Social_typeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Spend_typeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.StreetDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.SuppliersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.TownDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.WorkDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Work_typeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.sesionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.SessionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.bnd1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.bndDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.AnswerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Assets_typeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.BorrowerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.BuildingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Case_projectRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.CategoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.CompanyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Concern_projectRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.CreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Credit_typeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.DetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.DistristRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Educational_levelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ExistRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Exist_answerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Family_incomeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Family_spendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Family_statusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.GiveRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.GuranterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Has_answerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Has_emplRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_assetsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_gaurRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_insuRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_partnerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_supRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Income_typeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.InsuranceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Last_classRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.LinkRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Loan_registerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.PartnerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Payment_modeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.PersonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ProfessionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Profession_statusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ProjectRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Project_spondRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Project_typeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ProvinceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.QuestionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.RegionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.RelationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.RequestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.School_or_universityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Second_addressRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Service_projectRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ShiftRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Social_typeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Spend_typeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.StreetRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.SuppliersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.TownRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.WorkRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Work_typeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.sesionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.SessionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.bnd1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.bndRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.AnswerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Assets_typeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.BorrowerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.BuildingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Case_projectRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.CategoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.CompanyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Concern_projectRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.CreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Credit_typeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.DetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.DistristRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Educational_levelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ExistRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Exist_answerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Family_incomeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Family_spendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Family_statusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.GiveRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.GuranterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Has_answerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Has_emplRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_assetsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_gaurRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_insuRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_partnerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Have_supRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Income_typeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.InsuranceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Last_classRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.LinkRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Loan_registerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.PartnerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Payment_modeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.PersonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ProfessionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Profession_statusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ProjectRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Project_spondRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Project_typeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ProvinceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.QuestionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.RegionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.RelationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.RequestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.School_or_universityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Second_addressRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Service_projectRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.ShiftRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Social_typeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Spend_typeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.StreetRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.SuppliersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.TownRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.WorkRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.Work_typeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.sesionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.SessionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.bnd1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet.bndRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:credit_project.DatabaseDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.AnswerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Assets_typeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.BorrowerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.BuildingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Case_projectTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.CategoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.CompanyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Concern_projectTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.CreditTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Credit_typeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.DetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.DistristTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Educational_levelTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.ExistTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Exist_answerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Family_incomeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Family_spendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Family_statusTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.GiveTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.GuranterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Has_answerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Has_emplTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Have_assetsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Have_gaurTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Have_insuTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Have_partnerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Have_supTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Income_typeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.InsuranceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Last_classTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.LinkTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Loan_registerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.PartnerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Payment_modeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.PersonTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.ProfessionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Profession_statusTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.ProjectTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Project_spondTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Project_typeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.ProvinceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.QuestionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.RegionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.RelationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.RequestTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.School_or_universityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Second_addressTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Service_projectTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.ShiftTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Social_typeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Spend_typeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.StreetTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.SuppliersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.TownTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.WorkTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.Work_typeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.sesionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.SessionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.bnd1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:credit_project.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(credit_project.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:credit_project.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(credit_project.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:credit_project.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(credit_project.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:credit_project.DatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:credit_project.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(credit_project.DatabaseDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:credit_project.DatabaseDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
